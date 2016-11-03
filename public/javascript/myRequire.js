@@ -10,6 +10,6 @@ function require(fileName) {
 			}
 		}
 	}
-	xhr.send(null);
+	xhr.send();
 	return module.exports;
 };
