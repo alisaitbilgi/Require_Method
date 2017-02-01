@@ -1,3 +1,3 @@
-(function b() {
+function b() {
 	module.exports.b = require("a");
-})();
+};
